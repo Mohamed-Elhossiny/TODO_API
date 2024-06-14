@@ -126,7 +126,7 @@ namespace TODO_API.Controllers
 			response.ResponseValue = task;
 
 			return Ok(response);
-			//return CreatedAtAction("GetTask", new { id = task.Id }, task);
+			
 		}
 
 		// DELETE: api/Tasks/5
